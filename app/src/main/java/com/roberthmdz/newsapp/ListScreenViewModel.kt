@@ -25,5 +25,4 @@ class ListScreenViewModel @Inject constructor(
         }
         return _news
     }
-
 }
