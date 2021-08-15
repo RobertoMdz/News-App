@@ -118,7 +118,7 @@ fun DetailsScreen(
 @Composable
 fun DetailsPreview() {
     NewsAppTheme() {
-        
+
         DetailsScreen(
             newTitle = "Hello",
             navController = rememberNavController(),

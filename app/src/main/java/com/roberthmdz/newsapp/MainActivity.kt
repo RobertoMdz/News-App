@@ -36,7 +36,11 @@ class MainActivity : ComponentActivity() {
                             NewsListScreen(navController = navController)
                         }
                         composable("${Destinations.DETAILS_SCREEN}/{newTitle}") {
-                            // TODO: Navigate to details
+                            // Get newTitle from arguments
+                            it.arguments?.getString("newTitle")?.let { title ->
+                                DetailsScreen(title, navController)
+                            }
+
                         }
                     }
                 }
