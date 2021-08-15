@@ -12,4 +12,4 @@ This project implements a public news API to create the app that displays a list
 - Coil-compose to load images from internet: [link](https://coil-kt.github.io/coil/compose/)
 
 **App Screens**
-- ![](`r https://postimg.cc/gallery/TKDskj1`)
+- ![](https://postimg.cc/gallery/TKDskj1)
