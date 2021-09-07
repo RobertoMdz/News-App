@@ -1,5 +1,5 @@
 
-# Movies App - Android Jetpack Compose
+# News App - Android Jetpack Compose
 
 ## About the App
 This project implements a public news API to create the app that displays a list of news and the functionality to view the detail of one.
